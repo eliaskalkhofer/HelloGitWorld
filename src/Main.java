@@ -17,7 +17,7 @@ public class Main {
         int ch = 0;
 
         System.out.println("Einfache Rechnung");
-        System.out.println("--------------------------------------");
+        System.out.println("-----------------------------------");
 
         while(c == 0) {
             try {
@@ -46,13 +46,13 @@ public class Main {
             }
         }
 
-        System.out.println("--------------------------------------");
+        System.out.println("-----------------------------------");
         System.out.println("Verfahren auswählen:");
         System.out.println("Addieren(1)");
         System.out.println("Subtrahieren(2)");
         System.out.println("Multiplizieren(3)");
         System.out.println("Dividieren(4)");
-        System.out.println("--------------------------------------");
+        System.out.println("-----------------------------------");
 
         while(c == 2) {
             try {
@@ -81,7 +81,7 @@ public class Main {
             s = a  / b;
         }
 
-        System.out.println("--------------------------------------");
+        System.out.println("-----------------------------------");
         System.out.printf("Ergebnis: %d", s);
 
     }
