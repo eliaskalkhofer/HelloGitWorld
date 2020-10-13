@@ -68,6 +68,19 @@ public class Main {
             }
         }
 
+        if(ch == 1) {
+            s = a + b;
+        }
+        else if(ch == 2) {
+            s = a  - b;
+        }
+        else if(ch == 3) {
+            s = a  * b;
+        }
+        else if(ch == 4) {
+            s = a  / b;
+        }
+
         System.out.println("--------------------------------------");
         System.out.printf("Ergebnis: %d", s);
 
