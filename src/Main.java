@@ -14,8 +14,10 @@ public class Main {
         int b = 0;
         int s = 0;
         int c = 0;
+        int ch = 0;
 
-        System.out.println("Einfache Addition");
+        System.out.println("Einfache Rechnung");
+        System.out.println("--------------------------------------");
 
         while(c == 0) {
             try {
@@ -44,7 +46,15 @@ public class Main {
             }
         }
 
-        s = a + b;
+        System.out.println("--------------------------------------");
+        System.out.println("Verfahren auswählen:");
+        System.out.println("Addieren(1)");
+        System.out.println("Subtrahieren(2)");
+        System.out.println("Multiplizieren(3)");
+        System.out.println("Dividieren(4)");
+        System.out.println("--------------------------------------");
+
+        System.out.println("--------------------------------------");
         System.out.printf("Ergebnis: %d", s);
 
     }
