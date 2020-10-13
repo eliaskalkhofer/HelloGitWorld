@@ -54,6 +54,20 @@ public class Main {
         System.out.println("Dividieren(4)");
         System.out.println("--------------------------------------");
 
+        while(c == 2) {
+            try {
+                Scanner sc = new Scanner(System.in);
+
+                System.out.println("Zahlenkürzel eingeben:");
+                ch = sc.nextInt();
+                c = 3;
+            }
+
+            catch(Exception e) {
+                System.out.println("Fehler! Versuchen Sie es noch einmal!");
+            }
+        }
+
         System.out.println("--------------------------------------");
         System.out.printf("Ergebnis: %d", s);
 
